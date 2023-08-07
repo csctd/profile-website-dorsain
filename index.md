@@ -1,19 +1,19 @@
 # HJD
 
-you already know who i am, my name is thopher
+You already know who I am, my name is Thopher.
 
 
-ABC's
-Numbers
-shapes
-colors
+-ABC's
+-Numbers
+-shapes
+-colors
 
 
 
 <!-- use this to make a menu when you add more pages -->
-<!-- ```{toctree}
+```{toctree}
 :maxdepth: 2
 :hidden:
 
 pechakucha
-``` -->
+```
