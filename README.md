@@ -1,48 +1,16 @@
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-7f7980b617ed060a017424585567c406b6ee15c891e84e1186181d67ecf80aa0.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=11521480)
-# Sphinx Profile Page
+# Profile Website
 
-This is is a template for a resume/ personal portfolio, built with Sphinx! Based on [Chris Holdgraf's personal site](https://github.com/choldgraf/choldgraf.github.io)
+Welcome to my profile website, Everyone
+<!-- enter your target audience after the comma above -->
 
-This template is designed for use in the URI CS TD SSP. 
+Since you're here, you might be: 
+- University Student
+- Haitian
+- A Back Woman
 
+## Design
+- This website design is there to accommodate any individual. This website is simple and easy to access to know more about me. This can be used to get an idea of how to do your resume or if you want to know about me. On the main page, there will be a tab leading to the subsection to know more about me and my interest. There will be pictures on the website to make it more aesthetically pleasing. 
 
-## Tips for Updating the Content of this site
-
-- sidebar variables are defined in `info-.yml` 
-- sidebar formatting for sidebar is in `_templates/hello.html` 
-- variables are used via `html_context`
-- get social links back by removing setting to `navbar_end` in `conf.py` and set values by [example](https://github.com/choldgraf/choldgraf.github.io/blob/main/conf.py#L41)
-
-
-## To work with this repo offline (or in codespaces)
-
-**This requires having python installed then installs a package that helps build the website**
-
-The easiest way to build the website is to use `nox`, which handles all of the environment generation automatically.
-To do so, follow these steps:
-
-1. Install `nox`.
-
-   ```shell
-   pip install -U nox
-   ```
-2. To run a live webserver that will auto-build and reload when you make changes, run:
-
-```shell
-nox -s docs-live
-```
-
-If on Codespaces, use accept the port forwarding and open the forwarded port in a new browser tab to preview your site while you work. 
-
-<!-- 
-Run `nox`
-
-   ```shell
-   nox -s docs
-   ```
-
-this should install a Sphinx environment and build the site, putting the output files in `_build/html`. -->
-
-
-
+## Accessibility
+I will stick to colors that a colorblind person can adapt to. I will group information that is similar to each other together. If possible I will give my website the ability to read of my contents. My fonts size will be big enough so that people can read it.
 
