@@ -6,7 +6,7 @@ Hello, My name is Horna j Dorsainville.
 - Woman in stem
 - Majoring in Math
 - Haitian
-- Music enthusiats
+- Music enthusiast
 
 
 
