@@ -1,12 +1,12 @@
-# HJD
+ # HJD
 
-You already know who I am, my name is Thopher.
+Hello, My name is Horna j Dorsainville.
 
 
--ABC's
--Numbers
--shapes
--colors
+- Woman in stem
+- Majoring in Math
+- Haitian
+- Music enthusiast
 
 
 
