@@ -1,11 +1,17 @@
-![alt text](daisy-flower-1532449822.jpg)
-![alt text](download.jpg)
-```{card}
-:class-card: slide
-![alt text](daisy-flower-1532449822.jpg)
+# Sides
+
+```{include} _static/play_pause.html
 ```
 
-```{card}
+```{card} 
 :class-card: slide
-![alt text](download.jpg)
+
+![alt text](_static/img/daisy-flower-1532449822.jpg)
+```
+
+```{card} 
+:class-card: slide
+
+![alt text](_static/img/download.jpg)
+
 ```

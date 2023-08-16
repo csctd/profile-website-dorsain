@@ -22,5 +22,72 @@
         // console.log('in')
         // console.log(slides.length)
         // console.log(slideIndex)
-
         let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+            // console.log(i)
+            // console.log('off')
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) { slideIndex = 1 }
+        slides[slideIndex - 1].style.display = "block";
+    }
+
+    // show all again if not playing
+    function showAll() {
+        let i;
+        let slides = document.getElementsByClassName("slide");
+
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "block";
+        }
+    }
+
+//  make full screen mode
+    function openFullscreen() {
+        var elem = document.getElementById('slideshow');
+        console.log('fullscreen');
+            if (elem.requestFullscreen) {
+                elem.requestFullscreen();
+            } else if (elem.mozRequestFullScreen) { /* Firefox */
+                elem.mozRequestFullScreen();
+            } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
+                elem.webkitRequestFullscreen();
+            } else if (elem.msRequestFullscreen) { /* IE/Edge */
+                elem.msRequestFullscreen();
+            }
+        showSlides()
+        slideInterval = setInterval(showSlides, slideTime);
+    }
+
+
+    function closeFullscreen() {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            } else if (document.mozCancelFullScreen) { /* Firefox */
+                document.mozCancelFullScreen();
+            } else if (document.webkitExitFullscreen) { /* Chrome, Safari and Opera */
+                document.webkitExitFullscreen();
+            } else if (document.msExitFullscreen) { /* IE/Edge */
+                document.msExitFullscreen();
+            }
+
+        clearInterval(slideInterval);
+        showAll();
+        }
+
+    // play without fullscreen
+    function playSlideShow() {
+        
+            showSlides()
+            slideInterval = setInterval(showSlides, slideTime);
+        }
+
+    function pauseSlideShow() {
+        
+            clearInterval(slideInterval);
+            showAll();
+        }
+</script>
+{% endblock %}
+
